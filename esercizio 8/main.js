@@ -3,7 +3,7 @@ let isGuess = false;
 
 while (isGuess == false) {
     const userNumber = Number(prompt("Indovina il numero generato"));
-    if (userNumber == compNumber) {
+    if (userNumber === compNumber) {
         isGuess = true;
     }
 }
